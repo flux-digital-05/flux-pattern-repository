@@ -1,6 +1,8 @@
-# Frontend boilerplate
+# flux-pattern-repositoty
 
-## Run application
+## Commands
+
+### Run application
 
 First, run the development server:
 
@@ -10,13 +12,15 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Deploy application
+### Deploy application
 
 ```bash
 npm run build
 ```
 
-## How to add new components
+## How add new ...
+
+### Components
 
 The properties of a component must be declared inside the component and export when it need.
 
@@ -27,7 +31,7 @@ export interface Example {}
 Folder structure
 
 ```
-frontent-boilerplate/
+flux-pattern-repositoty/
 ├── src/
 │   ├── app/
 │   │   ├── components/
@@ -35,7 +39,7 @@ frontent-boilerplate/
 │   │   │   |   ├── Example.tsx
 ```
 
-## How to add new hooks
+### Hooks
 
 The properties of a hook must be declared inside the hook and export when it need.
 
@@ -46,14 +50,14 @@ export interface Example {}
 Folder structure
 
 ```
-frontent-boilerplate/
+flux-pattern-repositoty/
 ├── src/
 │   ├── app/
 │   │   ├── hooks/
 │   │   |   ├── useExample.ts
 ```
 
-## How to add new interface
+### Interface
 
 Each interface maps a API router.
 
@@ -64,9 +68,19 @@ export interface IExample {}
 Folder structure
 
 ```
-frontent-boilerplate/
+flux-pattern-repositoty/
 ├── src/
 │   ├── app/
 │   │   ├── interface/
 │   │   |   ├── IExample.ts
 ```
+
+## Conventional commits pattern
+
+- **test**: create tests.
+- **feat**: create new functionalities.
+- **refactor**: refactor something (viewer or logic).
+- **style**: add new styles.
+- **fix**: fix some bugs.
+- **chore**: add something that don't change the code.
+- **docs**: add code documentation.
